@@ -5,6 +5,7 @@ import java.util.function.Function;
 
             Function<Integer, Boolean> mul = x -> x % 2 == 0;
             System.out.println(f1(mul));
+            System.out.println("hello");
 
         }
         static boolean f1(Function<Integer, Boolean> fun) {
